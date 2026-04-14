@@ -1,9 +1,9 @@
 <?php
-// Kéo dữ liệu và hàm ra
+//1. Kéo dữ liệu và hàm ra
 $supplies = require __DIR__ . '/../src/Data/supplies.php';
 require __DIR__ . '/../src/Helpers/functions.php';
 
-// Chạy thống kê
+//2. Chạy thống kê
 $totalItems = count($supplies);
 $totalQuantity = getTotalQuantity($supplies);
 $availableSupplies = getAvailableSupplies($supplies);
